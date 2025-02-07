@@ -1,22 +1,35 @@
 #ifndef INIT_H
 #define INIT_H
 
-struct Links {
-    double link1;
-    double link2;
-    double link3;
+#include <Servo.h> 
+
+// servo pins
+#define SERVO1_PIN 9
+#define SERVO2_PIN 10
+#define SERVO3_PIN 11
+
+// link lengths based on the 3d model
+#define LINK1 1.0  
+#define LINK2 1.0  
+#define LINK3 1.0  
+
+extern Servo servo1;
+extern Servo servo2;
+extern Servo servo3;
+
+struct Joints {
+    float angle1;
+    float angle2;
+    float angle3;
 };
 
 struct Position {
-    double x;
-    double y;
-    double z;
+    float x;
+    float y;
+    float z;
 };
 
-struct Joints {
-    double theta1;
-    double theta2;
-    double theta3;
-};
+
+void robotInit();
 
 #endif
