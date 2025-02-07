@@ -1,7 +1,8 @@
-#include "Motor.h"
-#include <Arduino.h>
-#include <Servo.h>
+#include "motor.h"
 
-
-//pinout definitions and motor control
+void move(Joints joints) {
+    servo1.write(joints.angle1); 
+    servo2.write(joints.angle2); 
+    servo3.write(joints.angle3); 
+}
 
