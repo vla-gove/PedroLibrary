@@ -1,9 +1,9 @@
 #ifndef INVERSE_H
 #define INVERSE_H
 
-#include "Init.h"
-#include <math.h>
+#include "init.h"   
+#include "motor.h"  
 
-Angles Inverse(const Position& end_effector_position);
+void Inverse(Position position); 
 
 #endif
