@@ -1,8 +1,10 @@
 #ifndef FORWARD_H
 #define FORWARD_H
 
-#include "Init.h"
+#include "init.h"   
+#include "motor.h"  
 
-Position Forward(const Angles& jointAngles);
+void forward(Joints joints);  
+Position getPosition();
 
 #endif
