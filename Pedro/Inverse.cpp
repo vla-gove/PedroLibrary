@@ -1,10 +1,7 @@
-#include "Inverse.h"
-#include <math.h>
+#include "inverse.h"
 
-
-Angles Inverse(const Position& end_effector_position);
-
-    // inverse kinematics calculation here
-
-    return angles;
+void Inverse(Position position) {
+    // ** inverse kinematics function placeholder **
+    Joints joints;
+    move(joints);
 }
