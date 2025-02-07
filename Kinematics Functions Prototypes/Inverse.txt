@@ -7,11 +7,11 @@ L = sqrt(r*r + s*s);
 
 // + check for reachability
 
-// joint angle 2 calculations
+// joint angle 3 calculations
 cosTheta3 = (a2*a2 + a3*a3 - L*L) / (2 * a2 * a3);
 theta3 = acos(cosTheta3) * 180.0 / PI;
 
-// joint angle 3 calculations
+// joint angle 2 calculations
 alpha = atan2(s, r) * 180.0 / PI;
 beta = acos((a2*a2 + L*L - a3*a3) / (2 * a2 * L)) * 180.0 / PI;
 theta2 = alpha + beta;
