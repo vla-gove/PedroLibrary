@@ -1,13 +1,12 @@
-#include "Forward.h"
-#include <math.h>
+#include "forward.h"
 
+Position position;
 
-//will need dh parameters and joint constrains
-
-Position Forward(const Angles& jointAngles) {
-
-	//forward kinematics calculations here
-
-	return position;
+void forward(Joints joints) {
+    // ** forward kinematics function placeholder **
+    move(joints);
 }
 
+Position getPosition() {
+    return position;  
+}
