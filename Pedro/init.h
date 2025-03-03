@@ -8,10 +8,10 @@
 #define SERVO2_PIN 10
 #define SERVO3_PIN 11
 
-// link lengths based on the 3d model
-#define LINK1 1.0  
-#define LINK2 1.0  
-#define LINK3 1.0  
+// DH parameters
+#define D1 0.1  // offset of the first joint along the z-axis 
+#define A2 0.1  // length of link 2
+#define A3 0.1  // length of link 3
 
 extern Servo servo1;
 extern Servo servo2;
