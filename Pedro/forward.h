@@ -6,5 +6,6 @@
 
 void forward(Joints joints);  
 Position getPosition();
+Position calculatePosition(Joints joints);
 
 #endif
