@@ -5,9 +5,9 @@
 #include <Arduino.h>
 
 // servo pins
-#define SERVO1_PIN 9
-#define SERVO2_PIN 10
-#define SERVO3_PIN 11
+#define SERVO1_PIN 5
+#define SERVO2_PIN 6
+#define SERVO3_PIN 9
 
 // DH parameters
 #define D1 34.0  // offset of the first joint along the z-axis (mm)
