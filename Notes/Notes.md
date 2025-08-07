@@ -1,4 +1,3 @@
-# **PEDRO Robot Arm Library**
 **Work in progress!** For use with standard SG90 Servos.
 
 ## **Coordinate system reference**
